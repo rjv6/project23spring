@@ -1,0 +1,251 @@
+/* DEVELOPER: Rudys Vidal, IS117-004, Spring 2023 */
+
+@font-face {
+    src: url(../fonts/pitch-sans-bold-maisfontes.b159/pitch-sans-bold.otf);
+    font-family: "PitchSansBold";
+
+
+}
+
+@font-face {
+    src: url(../fonts/pitch-sans-maisfontes.58a3/pitch-sans.otf);
+    font-family: "PitchSansRegular";
+
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    border-top-color:red;
+    border-top-width: 3px;
+    border-top-style: solid;
+}
+
+/*
+.navbar-nav {
+    float: right;
+}
+*/
+
+.bg {
+    background-color: white;
+    color: red;
+
+
+}
+
+#collapsibleNavbar a{
+    color:red;
+}
+
+
+
+
+
+.item {
+    height:80%;
+
+}
+
+.container-fluid {
+    background-color: #212529;
+    color: white;
+}
+
+.navbar {
+    border-bottom: 5px solid red;
+    color: red;
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * .5);
+
+
+
+}
+
+#cards {
+    margin-bottom: 3rem;
+}
+
+.carousel-inner img{
+
+    object-fit: cover;
+    object-position: center;
+    height: 85vh;
+
+
+
+    overflow: hidden;
+
+
+}
+
+#myCarousel {
+    /*height:32rem;*/
+}
+
+.carousel-inner {
+    border: solid;
+    border-color: red;
+    font-family: "PitchSansRegular";
+    font-size: 1.5rem;
+    border-radius: 8px;
+
+
+}
+
+.carousel-inner h3, .carousel-inner p {
+    color: red;
+}
+
+.name-indicator {
+    font-family: "PitchSansBold";
+}
+
+.auto-type {
+    color: red;
+}
+
+
+.profHeadshot {
+    padding-top: 3em;
+    padding-right: 5em;
+    padding-bottom: 3em;
+}
+.profHeadshot img{
+    float: left;
+    max-width: 40%;
+
+
+}
+
+.card {
+    border: solid;
+    border-color: red;
+    border-radius: 8px;
+    border-width: medium;
+
+}
+
+.card-img-top {
+    margin: 5px;
+    width: 65px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.card-title{
+    font-family: "PitchSansBold";
+
+}
+
+.card-body{
+    text-align: center;
+    color: black;
+    font-family: "PitchSansRegular";
+}
+
+.nav-item {
+    margin:2px;
+    border-radius: 8px;
+    font-family: "PitchSansBold";
+}
+
+.dropdown-menu{
+    text-align: center;
+    margin:1px;
+    font-family: "PitchSansRegular";
+
+}
+
+@media (max-width:768px) {
+    #demo{
+        width:85%!important;
+    }
+}
+/*
+body {
+    object-position: center;
+    width: 100%;
+    max-width: 1200px;
+    height : 100%;
+    max-height: 1200px;
+    margin: auto;
+
+
+
+}
+*/
+
+
+html {
+    background-color: #212529;
+}
+
+.aboutMe {
+    margin-bottom: 100px;
+}
+
+.aboutMeContent{
+    font-family: "PitchSansRegular";
+}
+
+
+
+.contactform {
+    margin-bottom: 50px;
+}
+
+.contact {
+    margin: 50px auto 50px auto;
+
+}
+
+.form-group {
+    font-family: "PitchSansRegular";
+    max-width:700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.certs {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.certCard {
+    border: solid;
+    border-width: thick;
+    border-color: #ffb600;
+    border-radius: 8px;
+
+
+}
+
+.certLink {
+    color: #ffb600;;
+    border-radius: 8px;
+    font-family: "PitchSansBold";
+    font-size: 25px;
+
+}
+
+
+.jumbotron {
+    margin: auto;
+    margin-top: 50px;
+    font-family: "PitchSansBold";
+
+}
+
+/* DEVELOPER: Rudys Vidal, IS117-004, Spring 2023 */
